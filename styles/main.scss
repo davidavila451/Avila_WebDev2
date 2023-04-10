@@ -1,0 +1,6 @@
+@use "./vendor/normalize";
+@use "./partials/mixins";
+
+h1{
+    @include mixins.orange-heading;
+}

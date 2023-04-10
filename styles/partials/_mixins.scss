@@ -1,0 +1,9 @@
+@use "./colors";
+@use "./typography";
+
+@mixin orange-heading {
+    color: colors.$primary-font-color;
+    font-size: 15px;
+    font-family: typography.$heading;
+    font-style: normal;
+}
